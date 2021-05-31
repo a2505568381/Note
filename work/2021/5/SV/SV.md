@@ -1,14 +1,26 @@
 [TOC]
-# 数据分析
+# Results
 
 ## 1. 野生稻
-### 1.1 类型
+
+We gathered 2748 SVs which is common by six wild rice from 102 rice reference genome SVs sets. Next we used multiple methods to assess the private SVs sets of wild rice. First, we compared the 2748 SVs for four SV categories : insertion (INS),deletion (DEL), duplication (DUP), inversion (INV). For these 2748 SVs, more than half of the SVs with a type of DEL, accounting for 52% of the total , followed by INS (44%) ,a lower proportion (4%) of DUP and the least number is that the total proportion of INV, is only 0.2%(Figure. 1).
+
+Second, to further understand the length distribution of these SVs sets, we performed a frequency statistic based on the length of the SV sequence. In general, the length of SVs are distributed between 31bp to 60000bp. Specifically, as shown in Figure 2, there are a total of 840 SV with a length below 100bp, accounting for 30.57% of the total, while 1098 SV with a length of 100bp ~ 500bp, accounting for 39.96% and this section is also the section with the most SV aggregation. When the SV length reaches the interval of 500bp ~ 1000bp, 240 SVs (8.73%) are gathered in this interval, and there are 450 SVs (16.38%) within the length of 1000 ~ 5000bp. Only a very small part of the length of SV is larger than 5000bp, and the overall proportion is only 4.37%.
+
+Finally, our analyzed the chromosome distribution of private SVs in cultivated rice and wild rice in 102 rice reference genomes based on two sliding window sizes(Figure 3). When we counted the distribution of the two SV sets on the chromosomes based on the sliding window of 1Mb, we found that the results were not significant in terms of the SV sets of cultivated rice, because the overall trend was smooth and there was no large peak(Figure 3-a).But when we resized the sliding window to 100kb, we surprised the peak appearance. more precisely, there were obvious peaks on chromosomes 1, 2, 4, 8, 11 and 12, especially at the end of chromosome 11(Figure 3-c) .However, it is different from cultivated rice that no matter whether the slip window is 100 kB or 1MB, wild rice has a significant peak in chromosome distribution. In particular, when a significant peak appearing in chromosomes in chromosomes in 1, 12 when the slide size is 1MB(Figure 3-b). When the slide size is adjusted to 100kB, the area of the peak of the 1st chromosome is changed from a peak to four peaks, and only one peak is still present on the chromosome of the 10.(Figure 3-d) In addition, there is an interesting phenomenon: where the SV of cultivated rice peak, wild rice tends to be relatively flat, and vice versa.
+
+
+
+
 在102份水稻参考基因组中，针对6个野生稻进行了SV检测，最后发现2748份SV是野生稻中独有的SV。随后对这2748份SV按照类型进行了划分，并可视化为图1。正如图1所示，野生稻中数量最多的SV类型是DEL（1428），INS的数量次之（1206），INV的数量是最少的，仅有6个。
 ![](./assets/sv类型.png)
 
-<center>图1</center>
+<center>Figure 1</center>
 
-### 1.2 长度
+```tex
+具体而言，正如图二所示，其中长度在100bp以下的SV一共有840份(30.57%)，长度在100-500bp以内的SV一共有1098份(39.96%)，而长度在500-1000bp以内的SV一共有240份(8.73%)，长度在1000-5000bp以内的SV一共有450份(16.38%)，只有极少部分的SV长度大于5000，仅占总体变异的4.37%。
+```
+
 图2是野生稻中SV长度分布的频率统计图，总体来看，SV的长度分布于31bp到60000bp之间。其中长度在100bp以下的SV一共有840份(30.57%)，长度在100-500bp以内的SV一共有1098份(39.96%)，而长度在500-1000bp以内的SV一共有240份(8.73%)，长度在1000-5000bp以内的SV一共有450份(16.38%)，只有极少部分的SV长度大于5000，仅占总体变异的4.37%。
 ![](./assets/频率分布1.png)
 
